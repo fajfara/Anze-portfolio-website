@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
+
+body {
+  background-color: #141313;
+  background-image: url("https://www.transparenttextures.com/patterns/graphy-dark.png");
+  font-family: 'Open Sans', sans-serif;
+  overflow: auto;
+}
+
+#nav-bar{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+  background: #141313;
+}
+
+
+
+.content {
+  padding: 16px;
+  color: white;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+.top-container{
+  text-align: center;
+}
+
+.navbar-brand{
+  position: relative;
+  bottom: 20px;
+}
+
+#scroll-letters {
+  position: absolute;
+  z-index: -1;
+  right: 2px;
+}
+
+.jumbotron{
+  color: black;
+  margin-top: 10px;
+  height: 400px;
+}
+
+/* Parallax scroll */
+.img1{
+  background-attachment: fixed;
+}
+
+.img1{
+  background-image: url("http://oi64.tinypic.com/b3odir.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+#code{
+  margin-top: 100px;
+}
+
+.o-meni .text{
+  position: relative;
+  top: 50px;
+  margin: auto;
+  background-color: blue;
+  width: 300px;
+}
+
+.o-meni{
+  color: white;
+}
+
+.test2{
+  background-color: blue;
+  margin-top: 40px;
+  height: 400px;
+}
+
+.top-between{
+  height: 100px;
+  color: white;
+}
+
+#nav-bar a:hover{
+  background-color: blue;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+  
+}
+
+.active::before{
+  content: '<';
+  margin-right: 4px;
+}
+
+.active::after{
+  content: '/ >';
+  margin-left: 4px;
+}
+
+
+
+
+.links-right a{
+  margin-right: 5px;
+}
+
+
+
+
