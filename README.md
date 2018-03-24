@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #My personal portfolio website
 ---
 ##About
@@ -16,3 +17,12 @@ Update log:
 ⋅⋅⋅ So far website has been tested in Chrome and Firefox,  ⋅⋅⋅ seems fine so far, but in Edge there are some bugs will ⋅⋅⋅ look into that later on as well.
 
 
+=======
+# Anze-portfolio-website
+My work in progress portfolio website
+
+Currently working on navbar and the first section.
+Work done on 21.3.2018:
+  - added top rain effect and logo
+  - fixed styling of the code
+>>>>>>> 9f390d969d1d3894efec50cd401178d8ab7d527f
