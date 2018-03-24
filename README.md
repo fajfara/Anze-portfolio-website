@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #My personal portfolio website
 ---
 ##About
