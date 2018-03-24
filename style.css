@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Space+Mono');
+
 
 .section{
   position: relative;
-  display: block;
+  top: -40px;
   width: 100%;
-  height: 800px;
+  height: 400px;
   background: #fff;
   border-bottom: 1px solid #000;
   z-index: -1;
@@ -12,7 +13,9 @@
 
 body {
   margin: 0;
+  padding: 0;
   font-size: 28px;
+  font-family: 'Space Mono', monospace;
 }
 
 .top-container {
@@ -31,34 +34,90 @@ body {
   
 }
 
-#navbar {
-  overflow: hidden;
-  background-color: #333;
+/* Navbar styling */
+.navbar {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  background: #333;
+  font-size: 24px;
+}
+nav {
+  width: 100%;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
-#navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+nav a{
   text-decoration: none;
-  font-size: 17px;
+  color: #fff;
+  display: block;
+  padding: 10px;
 }
 
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
+nav a:hover {
+  background-color: #555;
+  color: #fff;
 }
 
-#navbar a.active {
-  background-color: #4CAF50;
-  color: white;
+.active {
+  background-color: #555;
+  color: #fff;
 }
 
-.content {
-  padding: 16px;
+
+@media screen and (min-width: 768px){
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+
 }
+
+@media screen and (max-width: 768px){
+  .navbar {
+    font-size: 16px;
+  }
+
+  nav ul{
+    text-align: center;
+  }
+
+}
+
+
+/* Section home styling */
+#home{
+  background-image: url('images/home-bg.jpg');
+  background-size: cover;
+}
+
+#home .h1 {
+  text-align: center;
+  background-color: rgb(0, 0, 255, 0.8);
+  color: #fff;
+}
+
+.h1 {
+  position: relative;
+  margin: auto;
+  width: 500px;
+  top: 110px;
+  padding: 10px;
+}
+
+.h1 p {
+  margin-top: -20px;
+  font-size: 15px;
+}
+
+
+
+
+
 
 .sticky {
   position: fixed;
