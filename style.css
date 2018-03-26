@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono');
 
-
+.buffer{
+  height: 80px;
+}
 .section{
   position: relative;
   top: -40px;
@@ -11,11 +13,19 @@
   z-index: -1;
 }
 
+.content #about{
+  height: 800px;
+  background-color: aliceblue;
+}
+
 body {
   margin: 0;
   padding: 0;
   font-size: 28px;
   font-family: 'Space Mono', monospace;
+  background-color: #0a0a0a;
+  background-image: url("https://www.transparenttextures.com/patterns/graphy-dark.png");
+  background-attachment: fixed;
 }
 
 .top-container {
@@ -41,6 +51,9 @@ body {
   padding: 0;
   background: #333;
   font-size: 24px;
+  background-color: #1f1f1f;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+
 }
 nav {
   width: 100%;
@@ -93,6 +106,7 @@ nav a:hover {
 #home{
   background-image: url('images/home-bg.jpg');
   background-size: cover;
+  background-attachment: fixed;
 }
 
 #home .h1 {
@@ -105,8 +119,13 @@ nav a:hover {
   position: relative;
   margin: auto;
   width: 500px;
+  height: 200px;
   top: 110px;
   padding: 10px;
+}
+
+.h1 h1{
+  margin-top: 40px;
 }
 
 .h1 p {
@@ -114,8 +133,15 @@ nav a:hover {
   font-size: 15px;
 }
 
+.container {
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
 
-
+#code-stats{
+  height: 400px;
+}
 
 
 
