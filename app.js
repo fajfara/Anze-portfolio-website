@@ -43,7 +43,13 @@ $(document).ready(function(){
       // Top rain effect
       var cvs = document.getElementById('scroll-letters');
 
-      cvs.height = document.getElementById('top').clientHeight * 10;
+      if(document.getElementById('top').clientHeight < 50){
+        cvs.height = document.getElementById('top').clientHeight * 10;
+      }
+      else{
+        cvs.height = document.getElementById('top').clientHeight;
+      }
+      
       console.log(cvs.height);
       cvs.width = document.getElementById('top').clientWidth;
       console.log(cvs.width);
@@ -93,5 +99,9 @@ $(document).ready(function(){
 
       
     };
+
+
+    
+
 
   });
