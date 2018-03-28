@@ -15,7 +15,8 @@
 
 .content #about{
   height: 800px;
-  background-color: aliceblue;
+  background-color: #FDFFFC;
+  background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
 }
 
 body {
@@ -49,9 +50,8 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 0;
-  background: #333;
   font-size: 24px;
-  background-color: #1f1f1f;
+  background-color: #011627;
   background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
   z-index: 11;
 }
@@ -66,19 +66,19 @@ nav ul{
 
 nav a{
   text-decoration: none;
-  color: #fff;
+  color: #FDFFFC;
   display: block;
   padding: 10px;
 }
 
 nav a:hover {
   background-color: #555;
-  color: #fff;
+  color: #FDFFFC;
 }
 
 .active {
-  background-color: #555;
-  color: #fff;
+  background-color: #F71735;
+  color: #FDFFFC;
 }
 
 
@@ -111,7 +111,7 @@ nav a:hover {
 
 #home .h1 {
   text-align: center;
-  background-color: rgb(0, 0, 255, 0.8);
+  background-color: rgb(1, 22, 39, 0.9);
   color: #fff;
 }
 
@@ -144,6 +144,11 @@ nav a:hover {
   z-index: 10;
 }
 
+#about .container{
+  position: relative;
+  top: 50px;
+}
+
 #code-stats{
   height: 400px;
 }
@@ -162,7 +167,35 @@ nav a:hover {
 }
 
 /* Portfolio styling */
-
 #portfolio{
   height: 1000px;
+  text-align: center;
+}
+.portfolio-container{
+  position: relative;
+  top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.portfolio-container > div {
+  display: flex; 
+  flex-basis: calc(33.33% - 15px);  
+  justify-content: center;
+  flex-direction: column;
+}
+
+.portfolio-container > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+#first-item, #second-item, #third-item, #fourth-item, #fifth-item, #sixth-item{
+  background-color: blue;
+  height: 300px;
+  border: 1px solid black;
+  margin: 10px 0 10px 10px;
 }
