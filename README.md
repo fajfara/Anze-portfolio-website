@@ -23,3 +23,8 @@ date: 26.3.2018
 Bug with rain effect:
 Sometimes it doesn't load, need to refresh the page, must look into that.
 Added content to about page and styling. Also body patter background.
+
+date: 28.3.2018
+Fixed the bug with the rain effect, on load sometimes it would be the full height of the div. Possible issues on mobile device, will check later on.
+Fixed the nav bar not sticking at the right moment, just changed the first variable in if statment.
+Some styling to the about page, not done anything about mobile device atm, will do later on.
