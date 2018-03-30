@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Space+Mono');
 
 .buffer{
-  height: 80px;
+  height: 20px;
 }
 .section{
   position: relative;
@@ -171,6 +171,13 @@ nav a:hover {
   height: 1000px;
   text-align: center;
 }
+
+#portfolio h1{
+  position: relative;
+  top: 70px;
+}
+
+
 .portfolio-container{
   position: relative;
   top: 50px;
