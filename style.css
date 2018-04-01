@@ -14,7 +14,7 @@
 }
 
 .content #about{
-  height: 800px;
+  height: 900px;
   background-color: #FDFFFC;
   background-image: url("https://www.transparenttextures.com/patterns/brick-wall.png");
 }
@@ -168,17 +168,17 @@ nav a:hover {
 
 /* Portfolio styling */
 #portfolio{
-  height: 1000px;
-  text-align: center;
+  height: 1100px;
 }
 
 #portfolio h1{
   position: relative;
-  top: 70px;
+  top: 30px;
+  text-align: center;
 }
 
 
-.portfolio-container{
+/*.portfolio-container{
   position: relative;
   top: 50px;
   display: flex;
@@ -198,11 +198,46 @@ nav a:hover {
   justify-content: center;
   flex-direction: row;
 }
-
+*/
 
 #first-item, #second-item, #third-item, #fourth-item, #fifth-item, #sixth-item{
   background-color: blue;
   height: 300px;
   border: 1px solid black;
-  margin: 10px 0 10px 10px;
+}
+
+.portfolio-container{
+  display: grid;
+  max-width: 960px;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 5px;
+  margin: 0 auto;
+}
+
+.first-item-label h1{
+  font-size: 1.1em;
+  background: rebeccapurple;
+  margin-top: -50px;
+}
+
+.first-item-label h2{
+  font-size: 1em;
+  background: blue;
+}
+
+.first-item-label{
+  position: relative;
+  top: 50px;
+  left: -10px;
+  height: 100px;
+  z-index: 1000;
+  text-align: right;
+}
+
+#first-item img{
+  width: 400px;
+  position: relative;
+  top: -130px;
+  display: block;
+  z-index: 1;
 }
